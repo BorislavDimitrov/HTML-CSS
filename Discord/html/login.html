@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../assets//images/favicon.ico" />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div>
+      <img src="../assets//images/login/image.svg" atl="background image" />
+    </div>
+
+    <div class="content-container">
+      <div class="left-column">
+        <div class="greeting">
+          <h2 id="welcome">Welcome back!</h2>
+          <p id="greeting">We're so excited to see you again!</p>
+        </div>
+
+        <div class="form-container">
+          <form id="form">
+            <label id="emailOrPhone-label" for="emailOrPhone"
+              >EMAIL OR PHONE NUMBER <span>*</span></label
+            >
+            <input
+              class="input"
+              type="text"
+              id="emailOrPhone"
+              name="emailOrPhone"
+            />
+            <label id="passwordLabel" for="password"
+              >PASSWORD <span>*</span></label
+            >
+            <input class="input" type="text" id="password" name="password" />
+            <div id="forgotPasswordWrapper">
+              <a id=""> Forgot your password?</a>
+            </div>
+
+            <input id="submit" type="submit" value="Log In" />
+          </form>
+        </div>
+        <p id="needAccount">
+          Need an account? <a href="register.html" id="register">Register</a>
+        </p>
+      </div>
+      <div class="right-column">
+        <div class="img-container">
+          <img src="../assets/images/login/QRcode.png" alt="QR code" />
+        </div>
+        <h2>Log in with QR code</h2>
+        <p>
+          Scan this with the <strong>Discord mobile app</strong> to long in
+          instantly.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

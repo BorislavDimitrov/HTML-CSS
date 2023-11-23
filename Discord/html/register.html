@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../assets/images/register/" />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/register.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div>
+      <img src="../assets/images/register/image.svg" alt="" />
+    </div>
+
+    <div class="content-container">
+      <h1>Create an account</h1>
+      <div class="form-container">
+        <form>
+          <div class="input">
+            <label id="emailLabel" for="email">Email <span>*</span></label>
+            <input class="input" type="text" id="email" name="password" />
+          </div>
+          <div class="input">
+            <label id="displayNameLabel" for="displayName">DISPLAY NAME </label>
+            <input
+              class="input"
+              type="text"
+              id="displayName"
+              name="displayName"
+            />
+          </div>
+          <div class="input">
+            <label id="usernameLabel" for="username"
+              >USERNAME <span>*</span></label
+            >
+            <input class="input" type="text" id="username" name="username" />
+          </div>
+          <div class="input">
+            <label id="passwordLabel" for="password"
+              >PASSWORD <span>*</span></label
+            >
+            <input class="input" type="text" id="password" name="password" />
+          </div>
+
+          <label for="date">DATE OF BIRTH <span>*</span></label>
+          <div class="date" name="date">
+            <select id="monthsSelect">
+              <option hidden>Month</option>
+            </select>
+
+            <select id="daysSelect">
+              <option hidden>Day</option>
+            </select>
+            <select id="yearsSelect">
+              <option hidden>Year</option>
+            </select>
+          </div>
+
+          <div class="checkbox-container one">
+            <input
+              type="checkbox"
+              id="scales"
+              value="emailOption"
+              name="scales"
+            />
+
+            <p>
+              (Optional) It’s okay to send me emails with Discord updates, tips,
+              and special offers. You can opt out at any time.
+            </p>
+          </div>
+
+          <button class="button-disabled" disabled>Continue</button>
+
+          <div class="checkbox-container two">
+            <input
+              type="checkbox"
+              value="emailOption"
+              name="scales"
+              id="inputTwo"
+              class=".button-disabled"
+            />
+
+            <p>
+              I have read and agree to Discord's
+              <a>Terms of Service</a> and <a>Privacy Policy</a>.
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="link-container">
+        <a>Already have an account?</a>
+      </div>
+    </div>
+    <script src="../assets/javascript/register.js"></script>
+  </body>
+</html>

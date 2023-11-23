@@ -1,0 +1,161 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.content-container {
+  width: 480px;
+  height: 706px;
+  box-sizing: border-box;
+  background-color: #313338;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.form-container {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #e8e9eb;
+  margin-bottom: 20px;
+}
+
+.input {
+  margin: 10px 0px;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #989ca3;
+  padding-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #1e1f22;
+  height: 40px;
+  border: none;
+  color: #989ca3;
+  padding: 10px;
+  outline: none;
+  transition: border-color.2s ease-in-out;
+}
+
+span {
+  color: red;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.date select {
+  width: 33%;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #1e1f22;
+  height: 40px;
+  color: #989ca3;
+  border: none;
+  outline: none;
+}
+
+.checkbox-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  cursor: pointer;
+  margin-right: 8px;
+  user-select: none;
+}
+
+.checkbox-container input {
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.checkbox-container p {
+  font-size: 12px;
+  color: #787d85;
+  margin-right: 15px;
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #787d85;
+  line-height: 24px;
+}
+
+.button-enabled {
+  background-color: #5865f2;
+  cursor: pointer;
+}
+
+.button-disabled {
+  background-color: #444c95;
+  cursor: not-allowed;
+}
+
+#inputTwo {
+  width: 22px;
+  height: 35px;
+}
+
+.two p {
+  color: #a7aaad;
+}
+
+.two a {
+  text-decoration: none;
+  color: #1575a7;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content-container a:last-of-type {
+  color: #1673a3;
+}
+
+.link-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  cursor: pointer;
+  font-size: 14px;
+}
