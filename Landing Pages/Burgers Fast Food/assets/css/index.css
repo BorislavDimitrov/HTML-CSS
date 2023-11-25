@@ -509,6 +509,7 @@ h1 {
   margin-left: -100px;
   font-family: "Montserrat";
   border: none;
+  cursor: pointer;
 }
 
 .sectionSeven .shape-container-one {
