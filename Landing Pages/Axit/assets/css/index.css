@@ -418,3 +418,93 @@
   font-weight: 400;
   font-family: "Open Sans";
 }
+
+.section-five {
+  width: 100%;
+  padding: 100px 0 100px 0;
+}
+
+.section-five-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-five-container .heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.section-five-container .heading-container h4 {
+  font-size: 36px;
+  line-height: 43px;
+  color: #212121;
+  font-weight: 400;
+  font-family: "Raleway";
+}
+
+.section-five-container .heading-container span {
+  color: orange;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 40px;
+}
+
+.section-five-container .heading-container p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.section-five-container .sections-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+
+.sections-container .section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.sections-container .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 76px;
+  height: 76px;
+  border-color: #ff8a38;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.section-five-container .circle i {
+  color: #ff8a38;
+}
+
+.section-five-container .sections-container h5 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.section-five-container .sections-container p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+}
