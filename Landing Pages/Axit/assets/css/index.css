@@ -914,3 +914,20 @@
   width: 145px;
   height: 45px;
 }
+
+footer {
+  width: 100%;
+  background-color: #000000;
+  padding: 20px 0 20px 0;
+}
+
+.footer-content {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 30px;
+}
+
+footer i {
+  color: #cdd2da;
+}
