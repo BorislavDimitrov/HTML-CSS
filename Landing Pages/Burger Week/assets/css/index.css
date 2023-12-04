@@ -1,0 +1,185 @@
+header {
+  width: 100%;
+  background-color: #ffbf45;
+  padding-top: 50px;
+}
+
+header .logo-container {
+  cursor: pointer;
+}
+
+.header-container {
+  width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.nav-container .delivery-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  column-gap: 20px;
+  font-size: 17px;
+  line-height: 71px;
+  color: #3d2514;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: right;
+}
+.nav-container ul {
+  display: flex;
+  column-gap: 30px;
+}
+
+.nav-container ul li {
+  cursor: pointer;
+  font-size: 21px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #3d2514;
+  font-weight: 700;
+  font-family: "Bebas Neue";
+}
+
+header .header-content {
+  width: 1360px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+}
+
+header .header-content .left-column p {
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+}
+
+header .header-content .left-column h1 {
+  margin-top: 30px;
+  font-size: 114px;
+  line-height: 62px;
+  text-transform: uppercase;
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+
+header .header-content .left-column h2 {
+  margin-top: 50px;
+  font-size: 114px;
+  line-height: 62px;
+  text-transform: uppercase;
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+
+header .header-content .right-column {
+  position: relative;
+  height: 600px;
+  width: 750px;
+}
+
+header .header-content .right-column .fries-container img {
+  position: absolute;
+  height: 370px;
+  width: 340px;
+  transform: rotate(-45deg);
+  bottom: 30%;
+  left: 10%;
+}
+
+header .header-content .right-column .burger-container img {
+  position: absolute;
+  height: 380px;
+  width: 400px;
+  right: 100px;
+  z-index: 1;
+  bottom: 15%;
+}
+
+header .header-content .right-column .burgerShadow-container img {
+  position: absolute;
+  height: 25px;
+  width: 400px;
+  bottom: 10%;
+  right: 110px;
+}
+
+header .header-content .right-column .cola-container img {
+  position: absolute;
+  height: 490px;
+  width: 170px;
+  right: 10px;
+  bottom: 20%;
+}
+
+header .header-content .right-column .colaShadow-container img {
+  position: absolute;
+  height: 25px;
+  width: 240px;
+  z-index: 2;
+  bottom: 15%;
+  right: -10px;
+}
+
+header .header-content .right-column .price-container {
+  background-color: rgb(224 30 29);
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+  z-index: 1;
+}
+
+header .header-content .right-column .price-container .price {
+  width: 140px;
+  height: 140px;
+  border-radius: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border: dashed #f8f8f8;
+  border-width: 2px;
+
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Bebas Neue";
+  text-align: center;
+}
+
+header .header-content .right-column .price-container .price span {
+  font-size: 20px;
+}
+
+.section-one {
+  width: 100%;
+  background-color: white;
+}
+
+.section-one-container {
+  width: 1260px;
+  margin: 0 auto;
+}
