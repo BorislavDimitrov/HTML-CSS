@@ -104,7 +104,7 @@ header .header-content .right-column .fries-container img {
 header .header-content .right-column .burger-container img {
   position: absolute;
   height: 380px;
-  width: 400px;
+  width: 420px;
   right: 100px;
   z-index: 1;
   bottom: 15%;
@@ -234,4 +234,112 @@ header .header-content .right-column .price-container .price span {
   position: absolute;
   z-index: 2;
   top: 10px;
+}
+
+.section-two {
+  background-color: white;
+  width: 100%;
+  padding-bottom: 200px;
+}
+
+.section-two-container {
+  width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.section-two-container .beautiful {
+  background-color: #ffc135;
+  padding: 10px;
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #3d2514;
+  font-weight: 700;
+  font-family: "Bebas Neue";
+}
+
+.section-two-container h2 {
+  font-size: 50px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+}
+
+.section-two-container .text {
+  width: 1082px;
+  height: 56px;
+  font-size: 17px;
+  line-height: 29px;
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.section-two-container .options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-two-container .options .option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-two-container .options .option .burger {
+  width: 350px;
+  height: 275px;
+}
+
+.section-two-container .options .option .shadow {
+  width: 445px;
+  height: 45px;
+  margin-top: 4px;
+}
+
+.section-two-container .options .option h3 {
+  font-size: 38px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #3d2514;
+  font-weight: 700;
+  font-family: "Bebas Neue";
+  margin-top: 20px;
+}
+
+.section-two-container .options .option p {
+  width: 367px;
+  height: 51px;
+  font-size: 17px;
+  line-height: 21px;
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section-two-container .options .option button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #df1b1b;
+  border: none;
+  margin-top: 30px;
+  height: 60px;
+  width: 195px;
+  font-size: 17px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
 }
