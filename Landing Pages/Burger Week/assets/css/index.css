@@ -343,3 +343,73 @@ header .header-content .right-column .price-container .price span {
   font-weight: 400;
   font-family: "Alfa Slab One";
 }
+
+.section-three {
+  width: 100%;
+  padding-bottom: 200px;
+}
+
+.section-three-container {
+  margin: 0 auto;
+  width: 1294px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  display: flex;
+  padding: 20px;
+}
+
+.section-three-container .left-column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.section-three-container .left-column span {
+  font-size: 29px;
+  letter-spacing: 2px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #3d3d3d;
+  font-weight: 700;
+  font-family: "Bebas Neue";
+}
+
+.section-three-container .left-column h3 {
+  font-size: 42px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+}
+
+.section-three-container .left-column p {
+  font-size: 21px;
+  line-height: 33px;
+  color: #3d3d3d;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin-top: 30px;
+}
+
+.section-three-container .left-column .dots {
+  margin-top: 120px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.section-three-container .left-column .dots .dot {
+  background-color: #dcdcdc;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.section-three-container .left-column .dots .dot:hover {
+  background-color: #ffc135;
+}
+
+.section-three-container .left-column #yellow {
+  background-color: #ffc135;
+}
