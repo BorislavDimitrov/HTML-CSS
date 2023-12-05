@@ -594,3 +594,7 @@ footer .right-column .socials {
   justify-content: end;
   padding-top: 131px;
 }
+
+footer .right-column .socials img {
+  cursor: pointer;
+}
