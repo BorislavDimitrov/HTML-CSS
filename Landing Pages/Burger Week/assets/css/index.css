@@ -269,6 +269,7 @@ header .header-content .right-column .price-container .price span {
   color: #3d2514;
   font-weight: 400;
   font-family: "Alfa Slab One";
+  margin-top: 50px;
 }
 
 .section-two-container .text {
@@ -280,11 +281,13 @@ header .header-content .right-column .price-container .price span {
   font-weight: 400;
   font-family: "Montserrat";
   text-align: center;
+  margin-top: 30px;
 }
 
 .section-two-container .options {
   display: flex;
   justify-content: space-between;
+  margin-top: 100px;
 }
 
 .section-two-container .options .option {
@@ -530,4 +533,64 @@ header .header-content .right-column .price-container .price span {
   background-color: #df1b1b;
   cursor: pointer;
   border: none;
+}
+
+.footer-wrapper {
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+footer {
+  width: 1360px;
+  background-image: url("../images/footerBackground.png");
+  background-size: 100% 100%;
+  margin: 0 auto;
+  padding: 80px 20px 30px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .left-column .info {
+  width: 520px;
+  height: 106px;
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin-top: 50px;
+}
+
+footer .left-column .copyright {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+  margin-top: 110px;
+}
+
+footer .right-column .contacts {
+  margin-top: 140px;
+}
+
+footer .right-column .contact {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+  padding-right: 80px;
+}
+
+footer .right-column p {
+  font-size: 21px;
+  line-height: 38px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Bebas Neue";
+}
+
+footer .right-column .socials {
+  display: flex;
+  column-gap: 10px;
+  justify-content: end;
+  padding-top: 131px;
 }
