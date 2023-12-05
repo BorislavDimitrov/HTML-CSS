@@ -413,3 +413,121 @@ header .header-content .right-column .price-container .price span {
 .section-three-container .left-column #yellow {
   background-color: #ffc135;
 }
+
+.section-four {
+  width: 100%;
+  padding-bottom: 200px;
+  position: relative;
+  overflow-x: clip;
+}
+
+.section-four #burger {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  top: -60px;
+  left: -15px;
+  z-index: 1;
+}
+
+.section-four #ketchup {
+  position: absolute;
+  height: 310px;
+  width: 90px;
+  top: 31%;
+  left: 12%;
+}
+
+.section-four #plate {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  right: -100px;
+  bottom: 0px;
+}
+
+.section-four-container {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-four-container p {
+  font-size: 29px;
+  letter-spacing: 2px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #3d2514;
+  font-weight: 700;
+  font-family: "Bebas Neue";
+}
+
+.section-four-container h3 {
+  font-size: 50px;
+  letter-spacing: 3px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #3d2514;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  margin-top: 35px;
+}
+
+.section-four-container .form-wrapper {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.section-four-container .form-container form {
+  width: 100%;
+}
+
+.section-four-container .form-container {
+  width: 100%;
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-four-container .form-container .left-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.section-four-container .form-container .right-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.section-four-container .form-container input {
+  font-size: 21px;
+  line-height: 46px;
+  color: #3d3d3d;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+  padding: 10px;
+  width: 380px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.section-four-container .form-container input[type="submit"] {
+  padding: 17px;
+  width: 100%;
+  height: 100%;
+  font-size: 21px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  background-color: #df1b1b;
+  cursor: pointer;
+  border: none;
+}
