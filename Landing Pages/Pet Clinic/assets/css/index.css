@@ -265,3 +265,77 @@ header .main-content button {
   text-align: center;
   margin-top: 20px;
 }
+
+.section-three {
+  width: 100%;
+  position: relative;
+  background-color: #2f81c5;
+  padding: 180px 0 120px 0;
+}
+
+.section-three .dots-down {
+  position: absolute;
+  bottom: 10%;
+  left: 14%;
+}
+
+.section-three .dots-up {
+  position: absolute;
+  top: 10%;
+  right: 14%;
+}
+
+.section-three .triangle-down {
+  position: absolute;
+  bottom: -1%;
+  right: 15%;
+}
+
+.section-three .triangle-up {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.section-three-container {
+  width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-three-container .left-column h2 {
+  font-size: 75px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+
+.section-three-container .left-column p {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 60px;
+  width: 650px;
+}
+
+.section-three-container .left-column button {
+  width: 250px;
+  height: 50px;
+  border-radius: 55px;
+  border: none;
+  background-color: #fbc400;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.section-three-container .right-column img {
+  border-radius: 50%;
+}
