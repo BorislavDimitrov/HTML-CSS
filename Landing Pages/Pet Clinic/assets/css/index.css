@@ -269,7 +269,7 @@ header .main-content button {
 .section-three {
   width: 100%;
   position: relative;
-  background-color: #2f81c5;
+  background-color: #5aa0e6;
   padding: 180px 0 120px 0;
 }
 
@@ -338,4 +338,92 @@ header .main-content button {
 
 .section-three-container .right-column img {
   border-radius: 50%;
+}
+
+.section-four {
+  width: 100%;
+  background-color: #2f81c5;
+  padding: 100px 0 100px 0;
+}
+
+.section-four-container {
+  width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+
+  align-items: center;
+}
+
+.section-four-container h2 {
+  font-size: 75px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-four-container p {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-four-container .cards {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-four-container .cards .card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  row-gap: 10px;
+}
+
+.section-four-container .cards .card h3 {
+  font-size: 37px;
+  color: #739ee3;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-four-container .cards .card .price {
+  font-size: 37px;
+  color: #739ee3;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-four-container .cards .card .text {
+  font-size: 22px;
+  color: #739ee3;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-four-container .cards .card button {
+  width: 250px;
+  height: 50px;
+  border-radius: 55px;
+  border: none;
+  background-color: #fbc400;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+  cursor: pointer;
+  margin-top: 50px;
 }
