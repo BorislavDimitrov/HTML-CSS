@@ -182,6 +182,86 @@ header .main-content button {
 .section-one .shape2 {
   position: absolute;
   bottom: 1%;
-  right: 20%;
+  right: 16%;
   z-index: 22;
+}
+
+.section-two {
+  padding: 200px 0 300px 0;
+  width: 100%;
+  background-image: url("../images/sectionTwoBackground.png");
+  background-size: cover;
+  position: relative;
+}
+
+.section-two .dots {
+  position: absolute;
+
+  left: 10%;
+  top: -1%;
+}
+
+.section-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #edc315;
+  mix-blend-mode: multiply;
+}
+
+.section-two-container {
+  width: 1360px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 44;
+}
+
+.section-two-container h2 {
+  font-size: 75px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-two-container p {
+  margin-top: 80px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-two-container .cards {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-two-container .card {
+  border: #ffffff solid 10px;
+  border-radius: 50%;
+  width: 254px;
+  height: 254px;
+}
+
+.section-two-container .cards .card .stat {
+  font-size: 53px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-two-container .cards .card .text {
+  font-size: 21px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+  margin-top: 20px;
 }
