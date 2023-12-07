@@ -427,3 +427,118 @@ header .main-content button {
   cursor: pointer;
   margin-top: 50px;
 }
+
+.section-five {
+  width: 100%;
+  padding: 100px 0 150px 0;
+  background-color: #5aa0e6;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-five .shape {
+  position: absolute;
+  bottom: -20%;
+  right: -16%;
+}
+
+.section-five .left {
+  position: absolute;
+  bottom: 5%;
+  left: 1%;
+}
+
+.section-five .right {
+  position: absolute;
+  top: 5%;
+  right: 1%;
+}
+
+.section-five-container {
+  width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+}
+
+.section-five-container h2 {
+  font-size: 75px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-five-container .info {
+  width: 1629px;
+  height: 210px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-five-container .rows {
+  width: 100%;
+}
+
+.section-five .row-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-five .row-one .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.section-five-container .row-one .card h4 {
+  font-size: 37px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+
+.section-five-container .row-one .card p {
+  width: 440px;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 20px;
+}
+
+/*hh*/
+.section-five .row-two {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.section-five .row-two .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.section-five-container .row-two .card h4 {
+  font-size: 37px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+
+.section-five-container .row-two .card p {
+  width: 440px;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 20px;
+}
