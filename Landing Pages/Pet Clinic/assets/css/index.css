@@ -1,0 +1,50 @@
+header {
+  width: 100%;
+  background-image: url("../images/headerBackground.png");
+  background-size: cover;
+  position: relative;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #5380c1;
+  mix-blend-mode: multiply;
+}
+
+.nav-wrapper {
+  width: 100%;
+  background: rgba(47, 124, 187, 0.7);
+  padding-top: 50px;
+  position: relative;
+  z-index: 4;
+}
+
+.nav-container {
+  position: relative;
+  width: 1360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.nav-container .nav-content ul {
+  display: flex;
+  column-gap: 40px;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+header .main-content {
+  width: 1360px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
