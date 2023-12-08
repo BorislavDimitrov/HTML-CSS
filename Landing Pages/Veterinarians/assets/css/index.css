@@ -286,6 +286,62 @@ header .main-content .right-column img {
   text-align: center;
 }
 
+.section-three {
+  width: 100%;
+  padding: 100px 0 100px 0;
+}
+
+.section-three-container {
+  width: 1260px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.section-three-container h3 {
+  font-size: 75px;
+  color: #313243;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-three-container p {
+  font-size: 33px;
+  color: #313243;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-three-container .cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-three-container .cards .card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.section-three-container .cards .card .name {
+  font-size: 29px;
+  color: #313243;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-three-container .cards .card .position {
+  font-size: 25px;
+  color: #313243;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+}
+
 .section-four {
   width: 100%;
   padding: 100px 0 100px 0;
