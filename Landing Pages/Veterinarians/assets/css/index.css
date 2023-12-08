@@ -139,3 +139,88 @@ header .main-content .right-column img {
   -o-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+
+.section-one {
+  width: 100%;
+}
+
+.section-one-container {
+  width: 1260px;
+  margin: 0 auto;
+  padding: 120px 0 120px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-one-container .left-column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.section-one-container .left-column h2 {
+  font-size: 50px;
+  color: #313243;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.section-one-container .left-column p {
+  font-size: 29px;
+  letter-spacing: 0px;
+  color: #313243;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.section-one-container .left-column button {
+  background-color: #ffc400;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 21px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins";
+  padding: 10px 0 10px 0;
+}
+
+.section-one-container .right-column {
+  position: relative;
+}
+
+.section-one-container .right-column::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(216, 169, 0, 0.569);
+  mix-blend-mode: multiply;
+}
+
+.section-one-container .right-column img {
+  position: relative;
+  z-index: 44;
+}
+
+.section-one-container .right-column .video {
+  position: absolute;
+  top: 45%;
+  left: 42%;
+  cursor: pointer;
+}
+
+.section-one-container .right-column .shape {
+  width: 200px;
+  height: 200px;
+  background-color: #ffc400;
+  position: absolute;
+  left: -6%;
+  bottom: -6%;
+  z-index: 0;
+}
