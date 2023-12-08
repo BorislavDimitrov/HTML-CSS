@@ -224,3 +224,64 @@ header .main-content .right-column img {
   bottom: -6%;
   z-index: 0;
 }
+
+.section-two {
+  width: 100%;
+  background-color: #ffc400;
+  padding: 100px 0 100px 0;
+}
+
+.section-two-container {
+  width: 1260px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+}
+
+.section-two-container h3 {
+  font-size: 75px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-two-container p {
+  font-size: 33px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-two-container .cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-two-container .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.section-two-container .cards .card h4 {
+  font-size: 38px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-two-container .cards .card p {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+}
