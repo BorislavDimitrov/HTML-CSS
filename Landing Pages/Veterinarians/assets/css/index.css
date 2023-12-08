@@ -451,6 +451,7 @@ header .main-content .right-column img {
   align-items: center;
   row-gap: 40px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-bottom: 30px;
 }
 
 .section-five-container .cards .card h5 {
