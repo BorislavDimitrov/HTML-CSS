@@ -409,3 +409,102 @@ header .main-content .right-column img {
   cursor: pointer;
   padding: 10px 0 10px 0;
 }
+
+.section-five {
+  width: 100%;
+  padding: 100px 0 100px 0;
+}
+
+.section-five-container {
+  width: 1260px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 65px;
+}
+
+.section-five-container h3 {
+  font-size: 75px;
+  color: #313243;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-five-container p {
+  font-size: 33px;
+  color: #313243;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.section-five-container .cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-five-container .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.section-five-container .cards .card h5 {
+  font-size: 25px;
+  color: #313243;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.section-five-container .cards .card .date {
+  font-size: 17px;
+  color: #00bec9;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.section-five-container .cards .card .info {
+  font-size: 17px;
+  color: #313243;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.section-five-container .cards .card a {
+  font-size: 21px;
+  color: #00bec9;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+footer {
+  width: 100%;
+  background-color: #303130;
+  padding: 50px 0 50px 0;
+}
+
+.footer-container {
+  display: 1360px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-container h6 {
+  font-size: 38px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.footer-container p {
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  cursor: pointer;
+}
